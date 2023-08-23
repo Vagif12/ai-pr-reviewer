@@ -208,8 +208,8 @@ inputs:
     description: 'The prompt for final summarization response'
     default: |
       Provide your final response in markdown with the following content:
-      - **Title**: An informative title for the PR, describing its main theme
-      - **PR Type**: Based on the files, choose one of the appropriate PR types from the following list: 
+      - **🎯 Title**: An informative title for the PR, describing its main theme
+      - **📌 PR Type**: Based on the files, choose one of the appropriate PR types from the following list: 
       
         - Bug fix
         - Tests
@@ -219,17 +219,17 @@ inputs:
         - Documentation
         - Other
         
-      - **Walkthrough**: A high-level summary of the overall change instead of 
+      - **🤖 Walkthrough**: A high-level summary of the overall change instead of 
         specific files within 80 words.
-      - **Changes**: A markdown table of files and their summaries. Group files 
+      - **✨ Changes**: A markdown table of files and their summaries. Group files 
         with similar changes together into a single row to save space.
-      - **Score**: Score: Rate this PR on a scale of 1-10 (inclusive), where 0 means the worst
+      - **#️⃣ Mergability Score (out of 10)**: Score: Rate this PR on a scale of 1-10 (inclusive), where 0 means the worst
       possible PR code and 10 means PR code of the highest quality, without
       any bugs or performance issues, that are ready to be merged immediately and
       run in production at scale.
         
       Avoid additional commentary as this summary will be added as a comment on the 
-      GitHub pull request. Use the titles "Title", "PR Type", "Walkthrough" and "Changes" and they must be H2.
+      GitHub pull request. Use the titles "🎯 Title", "📌 PR Type", "🤖 Walkthrough" and "✨ Changes" and they must be H2.
 
   summarize_release_notes:
     required: false
