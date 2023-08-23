@@ -212,6 +212,7 @@ inputs:
       - **📌 PR Type**: Based on the files, choose one of the appropriate PR types from the following list: 
       
         - Bug fix
+        - Feature
         - Tests
         - Bug fix with tests
         - Refactoring
@@ -228,7 +229,7 @@ inputs:
       any bugs or performance issues, that are ready to be merged immediately and
       run in production at scale. Be sure to prepend "/10" to the given score.
       - **🔒 Security concerns**: yes\\no question: does this PR code introduce possible security concerns or
-      issues, like SQL injection, XSS, CSRF, and others? If answered 'yes', explain your answer shortly but concisely.
+      issues, like SQL injection, XSS, CSRF, Hard-coded API keys/tokens, and others? If answered 'yes', explain your answer briefly but concisely.
         
       Avoid additional commentary as this summary will be added as a comment on the 
       GitHub pull request. Use the titles "🎯 Title", "📌 PR Type", "🤖 Walkthrough" and "✨ Changes" and they must be H2.
